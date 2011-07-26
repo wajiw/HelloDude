@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8F4BFC13DF33EF0082A31C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4BFB13DF33EF0082A31C /* UIKit.framework */; };
+		2F8F4BFE13DF33EF0082A31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4BFD13DF33EF0082A31C /* Foundation.framework */; };
+		2F8F4C0013DF33EF0082A31C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4BFF13DF33EF0082A31C /* CoreGraphics.framework */; };
+		2F8F4C0613DF33EF0082A31C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8F4C0413DF33EF0082A31C /* InfoPlist.strings */; };
+		2F8F4C0913DF33EF0082A31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F4C0813DF33EF0082A31C /* main.m */; };
+		2F8F4C0C13DF33EF0082A31C /* HelloDudeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F4C0B13DF33EF0082A31C /* HelloDudeAppDelegate.m */; };
+		2F8F4C0F13DF33EF0082A31C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8F4C0D13DF33EF0082A31C /* MainWindow.xib */; };
+		2F8F4C1213DF33EF0082A31C /* HelloDudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F4C1113DF33EF0082A31C /* HelloDudeViewController.m */; };
+		2F8F4C1513DF33EF0082A31C /* HelloDudeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8F4C1313DF33EF0082A31C /* HelloDudeViewController.xib */; };
+		2F8F4C1C13DF33F00082A31C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4BFB13DF33EF0082A31C /* UIKit.framework */; };
+		2F8F4C1D13DF33F00082A31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4BFD13DF33EF0082A31C /* Foundation.framework */; };
+		2F8F4C1E13DF33F00082A31C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F4BFF13DF33EF0082A31C /* CoreGraphics.framework */; };
+		2F8F4C2613DF33F00082A31C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8F4C2413DF33F00082A31C /* InfoPlist.strings */; };
+		2F8F4C2913DF33F00082A31C /* HelloDudeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2F8F4C2813DF33F00082A31C /* HelloDudeTests.h */; };
+		2F8F4C2B13DF33F00082A31C /* HelloDudeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F4C2A13DF33F00082A31C /* HelloDudeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F8F4C1F13DF33F00082A31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8F4BEE13DF33EF0082A31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8F4BF613DF33EF0082A31C;
+			remoteInfo = HelloDude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F8F4BF713DF33EF0082A31C /* HelloDude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8F4BFB13DF33EF0082A31C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F8F4BFD13DF33EF0082A31C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F8F4BFF13DF33EF0082A31C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F8F4C0313DF33EF0082A31C /* HelloDude-Info.plist */ = {isa = PBXFileReference; path = "HelloDude-Info.plist"; sourceTree = "<group>"; };
+		2F8F4C0513DF33EF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F8F4C0713DF33EF0082A31C /* HelloDude-Prefix.pch */ = {isa = PBXFileReference; path = "HelloDude-Prefix.pch"; sourceTree = "<group>"; };
+		2F8F4C0813DF33EF0082A31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F8F4C0A13DF33EF0082A31C /* HelloDudeAppDelegate.h */ = {isa = PBXFileReference; path = HelloDudeAppDelegate.h; sourceTree = "<group>"; };
+		2F8F4C0B13DF33EF0082A31C /* HelloDudeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDudeAppDelegate.m; sourceTree = "<group>"; };
+		2F8F4C0E13DF33EF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2F8F4C1013DF33EF0082A31C /* HelloDudeViewController.h */ = {isa = PBXFileReference; path = HelloDudeViewController.h; sourceTree = "<group>"; };
+		2F8F4C1113DF33EF0082A31C /* HelloDudeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDudeViewController.m; sourceTree = "<group>"; };
+		2F8F4C1413DF33EF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloDudeViewController.xib; sourceTree = "<group>"; };
+		2F8F4C1B13DF33F00082A31C /* HelloDudeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDudeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8F4C2313DF33F00082A31C /* HelloDudeTests-Info.plist */ = {isa = PBXFileReference; path = "HelloDudeTests-Info.plist"; sourceTree = "<group>"; };
+		2F8F4C2513DF33F00082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F8F4C2713DF33F00082A31C /* HelloDudeTests-Prefix.pch */ = {isa = PBXFileReference; path = "HelloDudeTests-Prefix.pch"; sourceTree = "<group>"; };
+		2F8F4C2813DF33F00082A31C /* HelloDudeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloDudeTests.h; sourceTree = "<group>"; };
+		2F8F4C2A13DF33F00082A31C /* HelloDudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDudeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8F4BF413DF33EF0082A31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F4BFC13DF33EF0082A31C /* UIKit.framework in Frameworks */,
+				2F8F4BFE13DF33EF0082A31C /* Foundation.framework in Frameworks */,
+				2F8F4C0013DF33EF0082A31C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8F4C1713DF33F00082A31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F4C1C13DF33F00082A31C /* UIKit.framework in Frameworks */,
+				2F8F4C1D13DF33F00082A31C /* Foundation.framework in Frameworks */,
+				2F8F4C1E13DF33F00082A31C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8F4BEC13DF33EE0082A31C = {
+			isa = PBXGroup;
+			children = (
+				2F8F4C0113DF33EF0082A31C /* HelloDude */,
+				2F8F4C2113DF33F00082A31C /* HelloDudeTests */,
+				2F8F4BFA13DF33EF0082A31C /* Frameworks */,
+				2F8F4BF813DF33EF0082A31C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8F4BF813DF33EF0082A31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F4BF713DF33EF0082A31C /* HelloDude.app */,
+				2F8F4C1B13DF33F00082A31C /* HelloDudeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8F4BFA13DF33EF0082A31C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F4BFB13DF33EF0082A31C /* UIKit.framework */,
+				2F8F4BFD13DF33EF0082A31C /* Foundation.framework */,
+				2F8F4BFF13DF33EF0082A31C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F8F4C0113DF33EF0082A31C /* HelloDude */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F4C0A13DF33EF0082A31C /* HelloDudeAppDelegate.h */,
+				2F8F4C0B13DF33EF0082A31C /* HelloDudeAppDelegate.m */,
+				2F8F4C0D13DF33EF0082A31C /* MainWindow.xib */,
+				2F8F4C1013DF33EF0082A31C /* HelloDudeViewController.h */,
+				2F8F4C1113DF33EF0082A31C /* HelloDudeViewController.m */,
+				2F8F4C1313DF33EF0082A31C /* HelloDudeViewController.xib */,
+				2F8F4C0213DF33EF0082A31C /* Supporting Files */,
+			);
+			path = HelloDude;
+			sourceTree = "<group>";
+		};
+		2F8F4C0213DF33EF0082A31C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F4C0313DF33EF0082A31C /* HelloDude-Info.plist */,
+				2F8F4C0413DF33EF0082A31C /* InfoPlist.strings */,
+				2F8F4C0713DF33EF0082A31C /* HelloDude-Prefix.pch */,
+				2F8F4C0813DF33EF0082A31C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F8F4C2113DF33F00082A31C /* HelloDudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F4C2813DF33F00082A31C /* HelloDudeTests.h */,
+				2F8F4C2A13DF33F00082A31C /* HelloDudeTests.m */,
+				2F8F4C2213DF33F00082A31C /* Supporting Files */,
+			);
+			path = HelloDudeTests;
+			sourceTree = "<group>";
+		};
+		2F8F4C2213DF33F00082A31C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F4C2313DF33F00082A31C /* HelloDudeTests-Info.plist */,
+				2F8F4C2413DF33F00082A31C /* InfoPlist.strings */,
+				2F8F4C2713DF33F00082A31C /* HelloDudeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8F4BF613DF33EF0082A31C /* HelloDude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8F4C2E13DF33F00082A31C /* Build configuration list for PBXNativeTarget "HelloDude" */;
+			buildPhases = (
+				2F8F4BF313DF33EF0082A31C /* Sources */,
+				2F8F4BF413DF33EF0082A31C /* Frameworks */,
+				2F8F4BF513DF33EF0082A31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloDude;
+			productName = HelloDude;
+			productReference = 2F8F4BF713DF33EF0082A31C /* HelloDude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F8F4C1A13DF33F00082A31C /* HelloDudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8F4C3113DF33F00082A31C /* Build configuration list for PBXNativeTarget "HelloDudeTests" */;
+			buildPhases = (
+				2F8F4C1613DF33F00082A31C /* Sources */,
+				2F8F4C1713DF33F00082A31C /* Frameworks */,
+				2F8F4C1813DF33F00082A31C /* Resources */,
+				2F8F4C1913DF33F00082A31C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8F4C2013DF33F00082A31C /* PBXTargetDependency */,
+			);
+			name = HelloDudeTests;
+			productName = HelloDudeTests;
+			productReference = 2F8F4C1B13DF33F00082A31C /* HelloDudeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8F4BEE13DF33EF0082A31C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2F8F4BF113DF33EF0082A31C /* Build configuration list for PBXProject "HelloDude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F8F4BEC13DF33EE0082A31C;
+			productRefGroup = 2F8F4BF813DF33EF0082A31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8F4BF613DF33EF0082A31C /* HelloDude */,
+				2F8F4C1A13DF33F00082A31C /* HelloDudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8F4BF513DF33EF0082A31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F4C0613DF33EF0082A31C /* InfoPlist.strings in Resources */,
+				2F8F4C0F13DF33EF0082A31C /* MainWindow.xib in Resources */,
+				2F8F4C1513DF33EF0082A31C /* HelloDudeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8F4C1813DF33F00082A31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F4C2613DF33F00082A31C /* InfoPlist.strings in Resources */,
+				2F8F4C2913DF33F00082A31C /* HelloDudeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8F4C1913DF33F00082A31C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8F4BF313DF33EF0082A31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F4C0913DF33EF0082A31C /* main.m in Sources */,
+				2F8F4C0C13DF33EF0082A31C /* HelloDudeAppDelegate.m in Sources */,
+				2F8F4C1213DF33EF0082A31C /* HelloDudeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8F4C1613DF33F00082A31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F4C2B13DF33F00082A31C /* HelloDudeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F8F4C2013DF33F00082A31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8F4BF613DF33EF0082A31C /* HelloDude */;
+			targetProxy = 2F8F4C1F13DF33F00082A31C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F8F4C0413DF33EF0082A31C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8F4C0513DF33EF0082A31C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F8F4C0D13DF33EF0082A31C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8F4C0E13DF33EF0082A31C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2F8F4C1313DF33EF0082A31C /* HelloDudeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8F4C1413DF33EF0082A31C /* en */,
+			);
+			name = HelloDudeViewController.xib;
+			sourceTree = "<group>";
+		};
+		2F8F4C2413DF33F00082A31C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8F4C2513DF33F00082A31C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F8F4C2C13DF33F00082A31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F8F4C2D13DF33F00082A31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2F8F4C2F13DF33F00082A31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDude/HelloDude-Prefix.pch";
+				INFOPLIST_FILE = "HelloDude/HelloDude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F8F4C3013DF33F00082A31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDude/HelloDude-Prefix.pch";
+				INFOPLIST_FILE = "HelloDude/HelloDude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F8F4C3213DF33F00082A31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloDude.app/HelloDude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDudeTests/HelloDudeTests-Prefix.pch";
+				INFOPLIST_FILE = "HelloDudeTests/HelloDudeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2F8F4C3313DF33F00082A31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloDude.app/HelloDude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDudeTests/HelloDudeTests-Prefix.pch";
+				INFOPLIST_FILE = "HelloDudeTests/HelloDudeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8F4BF113DF33EF0082A31C /* Build configuration list for PBXProject "HelloDude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8F4C2C13DF33F00082A31C /* Debug */,
+				2F8F4C2D13DF33F00082A31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8F4C2E13DF33F00082A31C /* Build configuration list for PBXNativeTarget "HelloDude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8F4C2F13DF33F00082A31C /* Debug */,
+				2F8F4C3013DF33F00082A31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F8F4C3113DF33F00082A31C /* Build configuration list for PBXNativeTarget "HelloDudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8F4C3213DF33F00082A31C /* Debug */,
+				2F8F4C3313DF33F00082A31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8F4BEE13DF33EF0082A31C /* Project object */;
+}
