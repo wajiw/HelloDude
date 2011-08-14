@@ -13,6 +13,8 @@
 - (void)dealloc
 {
     [super dealloc];
+    [myText dealloc];
+    [chgText dealloc];
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,5 +47,12 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+
+- (IBAction) changeText:(id)sender
+{
+    [myText setText:@"mystring"];
+}
+
 
 @end

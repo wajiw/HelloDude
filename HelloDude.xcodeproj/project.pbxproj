@@ -39,20 +39,20 @@
 		2F8F4BFB13DF33EF0082A31C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F8F4BFD13DF33EF0082A31C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F8F4BFF13DF33EF0082A31C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F8F4C0313DF33EF0082A31C /* HelloDude-Info.plist */ = {isa = PBXFileReference; path = "HelloDude-Info.plist"; sourceTree = "<group>"; };
+		2F8F4C0313DF33EF0082A31C /* HelloDude-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDude-Info.plist"; sourceTree = "<group>"; };
 		2F8F4C0513DF33EF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F8F4C0713DF33EF0082A31C /* HelloDude-Prefix.pch */ = {isa = PBXFileReference; path = "HelloDude-Prefix.pch"; sourceTree = "<group>"; };
+		2F8F4C0713DF33EF0082A31C /* HelloDude-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDude-Prefix.pch"; sourceTree = "<group>"; };
 		2F8F4C0813DF33EF0082A31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F8F4C0A13DF33EF0082A31C /* HelloDudeAppDelegate.h */ = {isa = PBXFileReference; path = HelloDudeAppDelegate.h; sourceTree = "<group>"; };
+		2F8F4C0A13DF33EF0082A31C /* HelloDudeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloDudeAppDelegate.h; sourceTree = "<group>"; };
 		2F8F4C0B13DF33EF0082A31C /* HelloDudeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDudeAppDelegate.m; sourceTree = "<group>"; };
 		2F8F4C0E13DF33EF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F8F4C1013DF33EF0082A31C /* HelloDudeViewController.h */ = {isa = PBXFileReference; path = HelloDudeViewController.h; sourceTree = "<group>"; };
+		2F8F4C1013DF33EF0082A31C /* HelloDudeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloDudeViewController.h; sourceTree = "<group>"; };
 		2F8F4C1113DF33EF0082A31C /* HelloDudeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDudeViewController.m; sourceTree = "<group>"; };
 		2F8F4C1413DF33EF0082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloDudeViewController.xib; sourceTree = "<group>"; };
 		2F8F4C1B13DF33F00082A31C /* HelloDudeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDudeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F8F4C2313DF33F00082A31C /* HelloDudeTests-Info.plist */ = {isa = PBXFileReference; path = "HelloDudeTests-Info.plist"; sourceTree = "<group>"; };
+		2F8F4C2313DF33F00082A31C /* HelloDudeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDudeTests-Info.plist"; sourceTree = "<group>"; };
 		2F8F4C2513DF33F00082A31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F8F4C2713DF33F00082A31C /* HelloDudeTests-Prefix.pch */ = {isa = PBXFileReference; path = "HelloDudeTests-Prefix.pch"; sourceTree = "<group>"; };
+		2F8F4C2713DF33F00082A31C /* HelloDudeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDudeTests-Prefix.pch"; sourceTree = "<group>"; };
 		2F8F4C2813DF33F00082A31C /* HelloDudeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloDudeTests.h; sourceTree = "<group>"; };
 		2F8F4C2A13DF33F00082A31C /* HelloDudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDudeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
